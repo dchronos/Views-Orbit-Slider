@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * The implementation of Views Orbit Slider module.
+ */
+
+
+/**
+* Implementation of hook_views_api().
+*/
+function views_orbit_slider_views_api() {
+  return array('api' => '3.x');
+}
